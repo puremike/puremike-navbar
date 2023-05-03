@@ -50,7 +50,7 @@ const Navbar1 = () => {
           <Stack
             direction="row"
             alignItems="center"
-            display={{ xs: "none", sm: "none", md: "none", lg: "flex" }}
+            display={{ xs: "none", sm: "flex" }}
           >
             <img src={Logo} alt="Logo" height="27px" width="27px" />
             <Typography fontSize="30px">
