@@ -1,3 +1,5 @@
+CREATED A RESPONSIVE NAVIGATION BAR WITH REACTJS AND MATERIAL UI. NAVIGATION BAR HAS THE MENU ICON, WHICH DISPLAYS WHEN THE VIEWPOINT IS AT A CERTAIN BREAKPOINT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

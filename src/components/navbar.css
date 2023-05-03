@@ -1,0 +1,40 @@
+.menu-btn {
+  cursor: pointer;
+  transition: 0.5 ease-in 0.5;
+}
+.menu-btn:hover {
+  transform: scale(1.2);
+}
+.puremike-style {
+  font-weight: bolder;
+  font-family: "Lobster Two", cursive;
+}
+
+.btn-style {
+  text-transform: uppercase;
+  background-color: #6bff46;
+  color: #0b1422;
+  padding: 10px 15px;
+  border-radius: 2px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.btn-style a {
+  color: black;
+}
+
+.btn-style:hover {
+  background-color: #15f488;
+  color: #0b1422;
+}
+
+.aside-link-style a:hover {
+  background-color: #233249;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.nav-link-style a:hover {
+  background-color: #233249;
+}
