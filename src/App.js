@@ -1,5 +1,3 @@
-import "./App.css";
-import AsideMenu from "./components/AsideMenu";
 import Navbar1 from "./components/Navbar1";
 
 const App = () => {
