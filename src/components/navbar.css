@@ -5,6 +5,13 @@
 .menu-btn:hover {
   transform: scale(1.2);
 }
+
+.aside-menu {
+  color: white;
+  padding: 2rem;
+  background-color: #0b1422;
+}
+
 .puremike-style {
   font-weight: bolder;
   font-family: "Lobster Two", cursive;

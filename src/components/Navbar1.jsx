@@ -33,11 +33,7 @@ const Navbar1 = () => {
           <Stack display={{ xs: "flex", sm: "flex", md: "flex", lg: "none" }}>
             <img
               onClick={() => {
-                if (aside === "none") {
-                  setAside("block");
-                } else if (aside === "block") {
-                  setAside("none");
-                }
+                aside === "none" ? setAside("block") : setAside("none");
               }}
               className="menu-btn"
               src={MenuIcon}

@@ -7,18 +7,8 @@ import "animate.css";
 
 const AsideMenu = ({ display }) => {
   return (
-    <Box
-      className="aside-menu"
-      sx={{
-        color: "white",
-        p: "2rem",
-        backgroundColor: {
-          xs: "#0B1422",
-        },
-      }}
-      display={display}
-    >
-      <Stack gap="2rem">
+    <Box display={{ lg: "none" }}>
+      <Stack className="aside-menu" gap="2rem" display={display}>
         <Stack direction="row" alignItems="center">
           <img src={Logo} alt="Logo" height="27px" width="27px" />
           <Typography fontSize="30px">
